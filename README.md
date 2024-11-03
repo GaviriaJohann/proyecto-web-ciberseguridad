@@ -6,6 +6,12 @@
 
 **Juan Pablo Giraldo Giraldo**
 
+## Despligue
+
+```url
+https://gaviriajohann.github.io/proyecto-web-ciberseguridad/
+```
+
 ## Documentación de Prompts
 
 | IA            | Link                              |
@@ -119,6 +125,22 @@ Secciones que incluyan:
 - Información sobre el equipo (puede incluir nombres, cargos y breves descripciones).
 - Testimonios o citas de clientes/miembros que respalden la credibilidad de la organización.
 - Un llamado a la acción que invite a los visitantes a interactuar (por ejemplo, contactar, seguir en redes sociales, etc.).
+```
+
+#### Crear página de 'Error 404'
+
+**IA**: `v0`
+
+**Prompt**:
+```txt
+Crea una página de error 404 que se muestre cuando un usuario intenta acceder a una URL que no existe en el sitio web. La página debe incluir los siguientes elementos:
+
+- Un encabezado que indique claramente "404 - Página no encontrada".
+- Un mensaje amigable que explique que la página que buscan no está disponible, sugiriendo que revisen la URL o que regresen a la página principal.
+-Un enlace de retorno a la página de inicio del sitio web.
+-Opcionalmente, incluye un cuadro de búsqueda que permita a los usuarios buscar contenido dentro del sitio.
+- Agrega elementos visuales, como una ilustración o icono divertido relacionado con el error 404, para hacer la experiencia menos frustrante.
+- Asegúrate de que el diseño sea coherente con el resto del sitio web y fácil de navegar.
 ```
 
 ### Generar imagenes

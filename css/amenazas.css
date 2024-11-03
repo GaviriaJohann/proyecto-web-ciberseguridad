@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1A1A2E;
+    color: #E5E5E5;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container {
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+}
+h1 {
+    color: #FF4500;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+.home-link {
+    display: inline-block;
+    background-color: #FF4500;
+    color: #E5E5E5;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+.home-link:hover {
+    background-color: #FF6347;
+}
+.search-form {
+    margin-top: 30px;
+}
+.search-input {
+    padding: 10px;
+    width: 70%;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    font-size: 1em;
+}
+.search-button {
+    padding: 10px 20px;
+    background-color: #3E444C;
+    color: #E5E5E5;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.search-button:hover {
+    background-color: #8A8A91;
+}
+.error-icon {
+    font-size: 100px;
+    margin-bottom: 20px;
+}
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    h1 {
+        font-size: 2.5em;
+    }
+    .search-input {
+        width: 60%;
+    }
+}
