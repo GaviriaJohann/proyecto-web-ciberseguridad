@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explora el mundo de la ciberseguridad: amenazas, protección de datos, seguridad en redes y dispositivos móviles. Mantente informado sobre las últimas noticias y tendencias en seguridad informática.">
+    <meta name="keywords" content="ciberseguridad, seguridad informática, protección de datos, amenazas cibernéticas, seguridad en redes, dispositivos móviles, educación en ciberseguridad">
+    <link rel="icon" href="../assets/images/imagen5.png">
+    <link rel="stylesheet" href="../css/registro.css">
+    <title>Registro - Ciberseguridad</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Registro de Usuario</h1>
+        <form id="registroForm">
+            <div>
+                <label for="nombre">Nombre completo:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            
+            <div>
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div>
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            
+            <div>
+                <label for="edad">Edad:</label>
+                <input type="number" id="edad" name="edad" min="18" max="120" required>
+            </div>
+            
+            <div class="full-width">
+                <label>Estado civil:</label>
+                <div class="radio-group">
+                    <label>
+                        <input type="radio" name="estadoCivil" value="soltero" required> Soltero
+                    </label>
+                    <label>
+                        <input type="radio" name="estadoCivil" value="casado"> Casado
+                    </label>
+                    <label>
+                        <input type="radio" name="estadoCivil" value="otro"> Otro
+                    </label>
+                </div>
+            </div>
+            
+            <div>
+                <label for="ciudad">Ciudad:</label>
+                <select id="ciudad" name="ciudad" required>
+                    <option value="">Seleccione una ciudad</option>
+                    <option value="madrid">Madrid</option>
+                    <option value="barcelona">Barcelona</option>
+                    <option value="valencia">Valencia</option>
+                    <option value="sevilla">Sevilla</option>
+                    <option value="zaragoza">Zaragoza</option>
+                </select>
+            </div>
+            
+            <div>
+                <label for="profesion">Profesión:</label>
+                <select id="profesion" name="profesion" required>
+                    <option value="">Seleccione una profesión</option>
+                    <option value="estudiante">Estudiante</option>
+                    <option value="ingeniero">Ingeniero</option>
+                    <option value="medico">Médico</option>
+                    <option value="profesor">Profesor</option>
+                    <option value="otro">Otro</option>
+                </select>
+            </div>
+            
+            <div class="full-width">
+                <label for="datosAdicionales">Datos adicionales:</label>
+                <textarea id="datosAdicionales" name="datosAdicionales" rows="4"></textarea>
+            </div>
+
+            <button type="submit">Enviar Registro</button>
+        </form>
+        <div id="errorMessages" class="error"></div>
+    </div>
+
+    <script src="../js/registro.js"></script>
+</body>
+</html>

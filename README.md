@@ -1,5 +1,11 @@
 # Proyecto Web CiberSeguridad
 
+## Integrantes
+
+**Johann Mauricio Gaviria Rodriguez**
+
+**Juan Pablo Giraldo Giraldo**
+
 ## Documentación de Prompts
 
 | IA            | Link                              |
@@ -61,6 +67,58 @@ Objetivos adicionales:
 - Contraste/Headers: #2E2E3A (gris antracita)
 - Elementos metálicos: #8A8A91 (gris acero) y #3E444C (grafito oscuro)
 - Acento vibrante: #FF4500 (naranja de advertencia, para botones o alertas)
+```
+
+#### Crear formulario de registro
+
+**IA**: `v0`
+
+**Prompt**:
+```txt
+Quiero que crees una página web que contenga un formulario de registro. El formulario debe recopilar los siguientes datos básicos del usuario:
+
+- Nombre completo
+- Correo electrónico
+- Contraseña
+- Estado civil (botones de radio)
+- Edad
+- Ciudad (desplegable con una lista de opciones)
+- Profesión (desplegable con una lista de opciones)
+- Datos adicionales (campo de texto libre)
+
+Al presionar el botón de enviar, se debe validar con JavaScript que todos los campos estén completados y que los datos sean correctos. Si algún campo está vacío o contiene información incorrecta, debe mostrarse un mensaje de error.
+```
+
+#### Crear formulario de contacto
+
+**IA**: `v0`
+
+**Prompt**:
+```txt
+Crea un formulario de contacto que permita a los usuarios comunicarse con el sitio web. El formulario debe incluir los siguientes campos:
+
+- Nombre
+- Correo electrónico
+- Mensaje
+```
+
+#### Crear página de 'quienes somos'
+
+**IA**: `v0`
+
+**Prompt**:
+```txt
+Crea una página web titulada "Quiénes somos" que presente información sobre la organización o el sitio web. La página debe incluir los siguientes elementos:
+
+- Un encabezado atractivo que refleje la misión o visión de la organización.
+- Un párrafo introductorio que explique brevemente quiénes somos y qué hacemos.
+
+Secciones que incluyan:
+- La historia de la organización.
+- Los valores y principios que guían nuestras acciones.
+- Información sobre el equipo (puede incluir nombres, cargos y breves descripciones).
+- Testimonios o citas de clientes/miembros que respalden la credibilidad de la organización.
+- Un llamado a la acción que invite a los visitantes a interactuar (por ejemplo, contactar, seguir en redes sociales, etc.).
 ```
 
 ### Generar imagenes

@@ -1,0 +1,62 @@
+body {
+    background-color: #1A1A2E;
+    color: #E5E5E5;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #2E2E3A;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #FF4500;
+}
+
+h2, h3, h4, h5 {
+    color: #E5E5E5;
+}
+
+#contenedorVideo, #videoVPN, #imagenFirewalls {
+    margin-bottom: 20px;
+}
+
+#contenedorVideo video, #videoVPN video {
+    border-radius: 8px;
+}
+
+th {
+    background-color: #3E444C;
+    color: #8A8A91;
+    padding: 12px;
+    text-align: left;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #8A8A91;
+    color: #8A8A91;
+}
+
+.table {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+p, ul {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.btn-primary {
+    background-color: #FF4500;
+    border: none;
+    color: #E5E5E5;
+}
+
+.btn-primary:hover {
+    background-color: #8A8A91;
+}
