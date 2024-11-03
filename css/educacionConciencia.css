@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1A1A2E;
+    color: #E5E5E5;
+}
+
+h1 {
+    color: #FF4500;
+}
+
+h2, h3 {
+    color: #E5E5E5;
+}
+
+#contenedorImagen, #imagenRecursos {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.btn-volver {
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    width: fit-content;
+    background-color: #FF4500;
+    color: #E5E5E5;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-volver:hover {
+    background-color: #8A8A91;
+}

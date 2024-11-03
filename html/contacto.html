@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explora el mundo de la ciberseguridad: amenazas, protección de datos, seguridad en redes y dispositivos móviles. Mantente informado sobre las últimas noticias y tendencias en seguridad informática.">
+    <meta name="keywords" content="ciberseguridad, seguridad informática, protección de datos, amenazas cibernéticas, seguridad en redes, dispositivos móviles, educación en ciberseguridad">
+    <link rel="icon" href="../assets/images/imagen5.png">
+    <link rel="stylesheet" href="../css/contacto.css">
+    <title>Contacto - Ciberseguridad</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Contacto</h1>
+        <form id="contactForm">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+            
+            <button type="submit">Enviar mensaje</button>
+        </form>
+        <div id="errorMessages" class="error"></div>
+        <div id="successMessage" class="success"></div>
+    </div>
+
+    <script src="../js/contacto.js"></script>
+</body>
+</html>
